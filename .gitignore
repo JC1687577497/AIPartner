@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 私密数据：对话记录与密钥绝不进仓库
+sessions/*.json
+.env
+.streamlit/secrets.toml
+
+# 系统文件
+.DS_Store
+Thumbs.db
